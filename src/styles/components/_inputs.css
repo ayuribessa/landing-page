@@ -4,20 +4,20 @@
 	font-size: var(--default-font-size);
 	font-family: var(--body-font);
   color: rgb(121, 118, 118);
-	margin: 4px 8px;
+	margin: 15px 50px;
 	padding: 20px 30px;
 	border-radius: 15px;
   background-color: transparent;
-	border: none;
+	border: solid;
 }
 
-.input:disabled{
+.input--disabled{
 
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.input:active {
+.input--active {
   
   border-color: var(--light-blue);
   color: black;
