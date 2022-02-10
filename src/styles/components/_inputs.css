@@ -1,0 +1,47 @@
+.input {
+
+	text-align: center;
+	font-size: var(--default-font-size);
+	font-family: var(--body-font);
+  color: rgb(121, 118, 118);
+	margin: 4px 8px;
+	padding: 20px 30px;
+	border-radius: 15px;
+  background-color: transparent;
+	border: none;
+}
+
+.input:disabled{
+
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input:active {
+  
+  border-color: var(--light-blue);
+  color: black;
+}
+
+
+.input--success {
+
+  background-color: lightgreen;
+  border-color: var(--light-green);
+  color: rgb(26, 109, 1);
+
+}
+
+.input--error{
+
+  background-color: rgb(247, 117, 117);
+  /* border-color: var(--light-green); */
+  color: rgb(109, 1, 1);
+}
+
+.input--attention{
+  
+  background-color: rgb(247, 186, 117);
+  /* border-color: var(--light-green); */
+  color: rgb(207, 84, 1);
+}
