@@ -6,3 +6,6 @@
 
 @import 'settings/_colors.css';
 @import 'settings/_typography.css';
+
+@import 'components/_buttons.css'
+@import 'components/_inputs.css'
