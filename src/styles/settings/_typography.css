@@ -1,0 +1,7 @@
+:root {
+  /* fonts-style */
+  --body-font: 'Montserrat', sans-serif;
+  /* fonts-size */
+  --default-font-size: 16px;
+  --big-font-size: 24px;
+}
